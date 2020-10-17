@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML Title -->
+    <title>Password Generator</title>
+    <!-- Link to BootStrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: lightgray;">
+    <br>
+    <!-- Responsive Container for mobile use -->
+    <div class="container" style="max-width: 720px;">
+        <div class="card text-center">
+            <div class="card-header">
+               <h2>Password Generator</h2>
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1";>Generate Password</label>
+                <!-- Area where the code will enter the password once all criteria has been stated -->
+                <textarea class="form-control" id="password" rows="3" style="text-align: center; border:dashed 1px gray; font-family:monospace" placeholder="Your Secure Password"></textarea>
+              </div>
+              <button id="generate" class="btn btn-danger">Generate</a>
+            </div>
+            <div class="card-footer text-muted">
+            Jakub Marchel 2020
+            </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
